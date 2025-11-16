@@ -1,0 +1,11 @@
+$ORIGIN chainbrothers.com.au.
+
+; GitHub Pages A Records (add these - you'll need to manually remove the old Google Sites A records)
+@	3600	 IN 	A	185.199.108.153
+@	3600	 IN 	A	185.199.109.153
+@	3600	 IN 	A	185.199.110.153
+@	3600	 IN 	A	185.199.111.153
+
+; GitHub Pages CNAME for www (this will need to replace the existing www CNAME)
+www	3600	 IN 	CNAME	matt-crofts.github.io.
+

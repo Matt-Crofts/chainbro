@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://chainbrothers.com.au/sitemap.xml
+
+# Disallow admin or private areas (if any added in future)
+# Disallow: /admin/
+# Disallow: /private/
+
