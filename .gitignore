@@ -1,0 +1,28 @@
+# Strategy and sensitive documents
+BUILDSTABILITY-SEO-STRATEGY.md
+SEO-GUIDE.md
+
+# Secrets and credentials
+.env
+*.key
+*.pem
+secrets/
+config/secrets.json
+
+# Local development
+.DS_Store
+*.log
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Temporary files
+*.tmp
+*.temp
+
