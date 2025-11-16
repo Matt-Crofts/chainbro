@@ -111,7 +111,7 @@
                 <h1 class="hero-headline">Quietly building something new</h1>
                 <p class="hero-subheading">Three decades of fintech expertise meets modern technology. Something new arrives early 2026.</p>
                 <div class="hero-cta">
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdCM8sInIqWnoi3NwLqV0uEYrTNjsnR1lcm0pw0_0ht_ylrcQ/viewform" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Stay in the loop</a>
+                    <a href="#early-access" class="btn btn-primary">Stay in the loop</a>
                     <a href="#about" class="btn btn-ghost">Learn more</a>
                 </div>
             </div>
@@ -237,7 +237,46 @@
                         Product design, payments, and AI are coming together in new ways. After three decades in fintech, we're using what we've learned to build something different. A platform that solves real problems. Built for small businesses that need powerful tools without enterprise pricing. Early 2026 is when it starts. Want in? Get in touch.
                     </p>
                     <div class="future-cta">
-                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdCM8sInIqWnoi3NwLqV0uEYrTNjsnR1lcm0pw0_0ht_ylrcQ/viewform" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Get early access</a>
+                        <a href="#early-access" class="btn btn-primary">Get early access</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Terms Agreement Section -->
+        <section class="section section-terms" id="early-access">
+            <div class="container">
+                <div class="terms-agreement">
+                    <h2 class="section-title">Early Access Application</h2>
+                    <p class="terms-intro">To apply for early access, please review and agree to our Terms of Service.</p>
+                    
+                    <div class="terms-box">
+                        <h3>By applying for early access, you agree to:</h3>
+                        <ul>
+                            <li>Use early access materials solely for evaluation and feedback</li>
+                            <li>Not misuse or reverse engineer our products</li>
+                            <li>Actively contribute constructive feedback</li>
+                            <li>Not share early access credentials with unauthorized parties</li>
+                        </ul>
+                        <p class="terms-note">Full terms available in our <a href="/terms.html" target="_blank">Terms of Service</a>.</p>
+                    </div>
+
+                    <div class="terms-checkbox-wrapper">
+                        <label class="terms-checkbox-label">
+                            <input type="checkbox" id="terms-agreement" class="terms-checkbox" required>
+                            <span>I have read and agree to the <a href="/terms.html" target="_blank">Terms of Service</a> and <a href="/privacy.html" target="_blank">Privacy Policy</a></span>
+                        </label>
+                    </div>
+
+                    <div class="terms-cta">
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdCM8sInIqWnoi3NwLqV0uEYrTNjsnR1lcm0pw0_0ht_ylrcQ/viewform" 
+                           target="_blank" 
+                           rel="noopener noreferrer" 
+                           class="btn btn-primary" 
+                           id="early-access-btn"
+                           onclick="return checkTermsAgreement(event)">
+                            Continue to Application Form
+                        </a>
                     </div>
                 </div>
             </div>
@@ -251,7 +290,8 @@
                 <p class="footer-copyright">&copy; 2025 Chain Brothers. All rights reserved.</p>
                 <div class="footer-links">
                     <a href="mailto:info@chainbrothers.com.au" class="footer-link">Contact</a>
-                    <a href="#" class="footer-link">Privacy</a>
+                    <a href="/privacy.html" class="footer-link">Privacy</a>
+                    <a href="/terms.html" class="footer-link">Terms</a>
                 </div>
             </div>
         </div>

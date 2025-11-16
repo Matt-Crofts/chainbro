@@ -12,5 +12,21 @@
         <priority>1.0</priority>
     </url>
     
+    <!-- Privacy Policy -->
+    <url>
+        <loc>https://chainbrothers.com.au/privacy.html</loc>
+        <lastmod>2025-11-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <!-- Terms of Service -->
+    <url>
+        <loc>https://chainbrothers.com.au/terms.html</loc>
+        <lastmod>2025-11-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
 </urlset>
 

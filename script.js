@@ -263,6 +263,34 @@
         initScrollAnimations();
     }
 
+    // ===================================
+    // Terms Agreement Check
+    // ===================================
+    
+    /**
+     * Checks if user has agreed to terms before allowing access to Google Form
+     * Made globally accessible for onclick handler
+     */
+    window.checkTermsAgreement = function(event) {
+        const checkbox = document.getElementById('terms-agreement');
+        
+        if (!checkbox || !checkbox.checked) {
+            event.preventDefault();
+            alert('Please read and agree to the Terms of Service and Privacy Policy to continue.');
+            
+            // Scroll to checkbox if not visible
+            if (checkbox) {
+                checkbox.focus();
+                checkbox.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            }
+            
+            return false;
+        }
+        
+        // Terms agreed - allow navigation to Google Form
+        return true;
+    };
+
     // Wait for DOM to be ready
     if (document.readyState === 'loading') {
         document.addEventListener('DOMContentLoaded', init);
